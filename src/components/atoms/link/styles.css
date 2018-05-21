@@ -1,5 +1,8 @@
 .link {
     font-style: italic;
     color: blue;
-    text-decoration: underline;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
 }
