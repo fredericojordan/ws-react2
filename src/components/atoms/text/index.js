@@ -1,5 +1,7 @@
 import * as React from 'react'
 
-const Text = props => <span>{props.children}</span>
+import styles from './styles.css'
+
+const Text = props => <span className={styles.text}>{props.children}</span>
 
 export default Text
