@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 import Text from '_atoms/text'
+import Link from '_atoms/link'
 
 const CKLBoilerplate = () => (
-    <Text>Meu texto.</Text>
+    <Fragment>
+    <Text>Meu texto. </Text>
+    <Link href="http://www.google.com/">Google</Link>
+    </Fragment>
 )
 
 export default CKLBoilerplate
